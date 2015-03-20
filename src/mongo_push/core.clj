@@ -35,7 +35,7 @@
   (let [number-inserts (Long/valueOf (first *command-line-args*))
   		host (nth *command-line-args* 1 "localhost")
   		port (Long/valueOf (nth *command-line-args* 2 27017))
-  		_ (mg/set-default-write-concern! WriteConcern/FSYNC_SAFE)
+  		_ (mg/set-default-write-concern! WriteConcern/JOURNAL_SAFE)
   		_ (println "Connecting to:" host ", port:" port "to write" number-inserts "docs...")
   		db (connect-to-mongo host port)
   		template (json/parse-stream (clojure.java.io/reader (io/resource "input.json")) true)
