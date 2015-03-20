@@ -1,0 +1,42 @@
+{
+  "docid" : "000b6ddd-4747-43ff-bd15-c25a8588ba42",
+  "epochTime" : 1426510087000,
+  "timestamp" : "2015-03-16T12:48:07.000Z",
+  "email" : "iamatestemail@emailreaction.com",
+  "custProfileId" : "72387b62-161c-42c4-b6fb-4c9e6df560ee",
+  "customerId" : null,
+  "firstName" : "aaron",
+  "lastName" : "blaaaa",
+  "dob" : null,
+  "purchaseOpportunities" : [{
+      "purchaseOpportunityId" : "3e968f74-41b2-4aff-a016-428796b955dd",
+      "productCode" : "BI",
+      "probability" : 0.6431,
+      "lastTouchDate" : "2014-07-16T20:25:12.000Z",
+      "saleDate" : null,
+      "resolicitationDate" : null,
+      "rewarded" : "None",
+      "sale" : false,
+      "brand" : null
+    }, {
+      "purchaseOpportunityId" : "6be4071e-1b46-4018-8dd7-a5008198135c",
+      "productCode" : "HH",
+      "probability" : 0.018,
+      "lastTouchDate" : "2014-04-13T21:17:51.000Z",
+      "saleDate" : null,
+      "resolicitationDate" : null,
+      "rewarded" : "None",
+      "sale" : false,
+      "brand" : null
+    }, {
+      "purchaseOpportunityId" : "fa6a861e-6d2d-4899-8c27-d1106c0735d3",
+      "productCode" : "HH",
+      "probability" : 0.0948,
+      "lastTouchDate" : "2014-05-03T16:28:11.000Z",
+      "saleDate" : null,
+      "resolicitationDate" : null,
+      "rewarded" : "None",
+      "sale" : false,
+      "brand" : null
+    }]
+}
